@@ -50,3 +50,24 @@ Test your new function; I've provided some basic testing code in `code.test.js`.
 What is the worst-case asymptotic time complexity of your implementation? What
 is the worst-case asymptotic memory complexity? Add your answer, including your
 reasoning, to this markdown file.
+
+
+///
+
+To calculate the length of a path, you need to traverse n cities, and the time complexity is O(n)
+
+When the number of cities is n, there are n! permutations, and the time complexity is O(n!)
+
+For each path, the time complexity is O(1)
+
+The total time complexity is O(n*n!)
+
+###
+
+source:
+
+https://en.wikipedia.org/wiki/Held%E2%80%93Karp_algorithm
+https://en.wikipedia.org/wiki/Travelling_salesman_problem
+https://blog.csdn.net/huyiqiuuuu/article/details/135620132
+
+Plagiarism Statement: “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
