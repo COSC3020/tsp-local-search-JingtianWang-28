@@ -64,9 +64,9 @@ The total time complexity is theta(n)
 
 If the number of iterations is not limited, the 2opt algorithm will stop when all possible exchanges cannot further reduce the path length. 
 
-For n cities, the worst case number of iterations is O(n!)
+For n cities, the worst case number of iterations is O(n^2)
 
-At this time, the total time complexity is theta(n*n!)
+At this time, the total time complexity is theta(n^3) 
 
 ###
 
