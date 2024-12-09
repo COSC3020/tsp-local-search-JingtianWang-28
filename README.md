@@ -64,7 +64,7 @@ If the number of iterations is not limited, the 2opt algorithm will stop when al
 
 For n cities, the worst case number of iterations is O(n^2)
 
-At this time, the total time complexity is O(n+n+n*n^2) = theta(n^3) 
+At this time, the total time complexity is O(n+n+n*n^2) which simplifies to theta(n^3) 
 
 ###
 
