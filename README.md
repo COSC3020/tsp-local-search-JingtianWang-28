@@ -54,13 +54,17 @@ reasoning, to this markdown file.
 
 ///
 
-To calculate the length of a path, you need to traverse n cities, and the time complexity is O(n)
+The swap function performs an array flip operation. When the input is the number of cities n, the time complexity is O(n)
 
-When the number of cities is n, there are n! permutations, and the time complexity is O(n!)
+The calculateroutelength function needs to traverse the entire path and calculate the distance, and the time complexity is O(n)
 
-For each path, the time complexity is O(1)
+Since the maximum execution stop is set to 1000 times, the number of loops is O(n)
 
-The total time complexity is O(n*n!)
+The total time complexity is theta(n)
+
+If the number of iterations is not limited, for n cities, the worst case number of iterations is O(n!)
+
+At this time, the total time complexity is theta(n*n!)
 
 ###
 
