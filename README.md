@@ -62,9 +62,9 @@ Since the maximum execution stop is set to 1000 times, the number of loops is O(
 
 If the number of iterations is not limited, the 2opt algorithm will stop when all possible exchanges cannot further reduce the path length. 
 
-For n cities, the worst case number of iterations is O(n^2)
+For n cities, the worst case number of iterations is O(n!)
 
-At this time, the total time complexity is O(n+n+n*n^2) which simplifies to theta(n^3) 
+At this time, the total time complexity is O(n+n+n*n!) which simplifies to theta(n*n!) 
 
 
 memory complexity:
