@@ -67,7 +67,7 @@ For n cities, the worst case number of iterations is O(n^2)
 At this time, the total time complexity is O(n+n+n*n^2) which simplifies to theta(n^3) 
 
 
-space complexity:
+memory complexity:
 
 currentroute stores the current path, which takes up O(n) time. 
 
@@ -75,7 +75,7 @@ bestroute stores the best path, which takes up O(n) time.
 
 The swap function creates a new path array each time it is called, which takes up O(1) time. 
 
-The space complexity is O(n)+O(n)+O(1) = O(n)
+The memory complexity is O(n)+O(n)+O(1) = O(n)
 
 ###
 
