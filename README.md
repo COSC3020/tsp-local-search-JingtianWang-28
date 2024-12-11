@@ -50,3 +50,37 @@ Test your new function; I've provided some basic testing code in `code.test.js`.
 What is the worst-case asymptotic time complexity of your implementation? What
 is the worst-case asymptotic memory complexity? Add your answer, including your
 reasoning, to this markdown file.
+
+
+///
+
+The swap function performs an array flip operation. When the input is the number of cities n, the time complexity is O(n)
+
+The calculateroutelength function needs to traverse the entire path and calculate the distance, and the time complexity is O(n)
+
+Since the maximum execution stop is set to 1000 times, the number of loops is O(1000n) which simplifies to O(n)
+
+For n cities, the worst case number of iterations is O(n!)
+
+At this time, the total time complexity is O(n+n+n*n!) which simplifies to theta(n*n!) 
+
+
+memory complexity:
+
+currentroute stores the current path, which takes up O(n) time. 
+
+bestroute stores the best path, which takes up O(n) time. 
+
+The swap function creates a new path array each time it is called, which takes up O(1) time. 
+
+The memory complexity is O(n)+O(n)+O(1) = O(n)
+
+###
+
+source:
+
+https://en.wikipedia.org/wiki/Held%E2%80%93Karp_algorithm
+https://en.wikipedia.org/wiki/Travelling_salesman_problem
+https://blog.csdn.net/huyiqiuuuu/article/details/135620132
+
+Plagiarism Statement: “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
